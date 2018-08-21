@@ -51,9 +51,6 @@ namespace VRStandardAssets.Utils
             UnityEngine.XR.XRSettings.eyeTextureResolutionScale = m_RenderScale;
 #endif
 
-#if UNITY_STANDALONE
-            UnityEngine.XR.XRSettings.loadedDevice = VRDeviceType.Oculus;
-#endif
             
 #if UNITY_PS4 && !UNITY_EDITOR
 		    VRSettings.loadedDevice = VRDeviceType.Morpheus;
